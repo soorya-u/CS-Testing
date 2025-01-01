@@ -1,0 +1,6 @@
+test-directory: "tests"
+comments: "on"
+testing-branch: "main"
+testing-framework: "pytest"
+water-mark: "on"
+redis-caching: "off"
