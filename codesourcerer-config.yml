@@ -1,6 +1,18 @@
-test-directory: "tests"
-comments: "on"
-testing-branch: "main"
-testing-framework: "pytest"
-water-mark: "on"
-redis-caching: "off"
+configuration:
+  test-directory: "tests/"
+  comments: false
+  testing-branch: "main"
+  testing-framework: "pytest"
+  water-mark: false
+
+environment:
+  python-version: "3.10"
+
+caching:
+  enabled: false
+  redis-caching: false
+
+extras:
+  indent-type: "space"
+  indent-size: "2"
+  trailing-comma: "on"
