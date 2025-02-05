@@ -1,7 +1,7 @@
 configuration:
-  test-directory: "tests/"
+  test-directory: "unit-tests/"
   comments: false
-  testing-branch: "main"
+  testing-branch: "serious-testing"
   testing-framework: "pytest"
   water-mark: false
 
